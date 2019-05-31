@@ -9,9 +9,8 @@ dependencyManagement {
 
 dependencies {
     compile project(":components:rest-support")
-
     compile "org.springframework.boot:spring-boot-starter-web"
-
+    compile "org.springframework.boot:spring-boot-starter-security"
     compile "com.zaxxer:HikariCP:$hikariVersion"
     compile "mysql:mysql-connector-java:$mysqlVersion"
     compile "ch.qos.logback:logback-classic:$logbackVersion"
