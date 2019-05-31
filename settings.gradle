@@ -22,4 +22,3 @@ include "databases:timesheets-database"
 
 include "integration-test"
 include "platform-services:eureka-server"
-# changes to done to trigger the build
